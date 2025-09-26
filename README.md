@@ -1,6 +1,6 @@
 # Analisi Vendite Retail
 
-Questo progetto mostra un flusso completo di analisi dati su un dataset di vendite retail, utilizzando **Excel, SQL (BigQuery) e Tableau/Power BI**.
+Questo progetto mostra un flusso completo di analisi dati su un dataset di vendite retail, utilizzando **Excel, SQL (BigQuery) e Tableau**.
 
 ## Descrizione del progetto
 L'obiettivo è analizzare i dati di vendita per ottenere insight utili e creare una dashboard interattiva.  
