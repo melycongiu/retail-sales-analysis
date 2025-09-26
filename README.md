@@ -16,7 +16,7 @@ Il processo include:
 - Le categorie di prodotto mostrano diversi pattern tra quantità venduta e ricavo totale
 
 ## Contenuto del repository
-- `data/` → dataset pulito (CSV/Excel)  
+- `dataset` → dataset pulito (File Excel)  
 - `sql/` → query SQL utilizzate per l’analisi  
 - `screenshots/` → immagini della dashboard e dei grafici  
 - `README.md` → documentazione del progetto
