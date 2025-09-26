@@ -1,33 +1,31 @@
-# Retail Sales Analysis
+# Analisi Vendite Retail
 
-This project demonstrates a complete data analysis workflow on a retail dataset using **Excel, SQL (BigQuery), and Tableau Public**.
+Questo progetto mostra un flusso completo di analisi dati su un dataset di vendite retail, utilizzando **Excel, SQL (BigQuery) e Tableau/Power BI**.
 
-## Project Overview
-The goal of this project is to analyze retail sales data to generate business insights and build an interactive dashboard.  
-The process includes:
-- **Data Cleaning**: Performed in Excel and SQL (handling missing values, duplicates, and formatting issues).
-- **SQL Queries**: Aggregations and analysis of customer behavior, sales trends, and product performance.
-- **Dashboard**: Visualization of key metrics and trends using Tableau Public.
+## Descrizione del progetto
+L'obiettivo è analizzare i dati di vendita per ottenere insight utili e creare una dashboard interattiva.  
+Il processo include:
+- **Pulizia dei dati**: in Excel e SQL (gestione dei valori mancanti, duplicati e formattazione)
+- **Query SQL**: aggregazioni e analisi del comportamento dei clienti, trend delle vendite e performance dei prodotti
+- **Dashboard**: visualizzazione dei principali indicatori e trend tramite Tableau o Power BI
 
-## Key Insights
-- Total sales generated: **456,000 €**
-- Top 10 customers spent **~2,000 € each**, representing only **4.4% of total sales**
-- Sales peaked in **May and October 2023**, with a low point in **January 2024**
-- Product categories show different patterns in sales volume vs. total revenue
+## Principali insight
+- Vendite totali generate: **456.000 €**
+- I top 10 clienti hanno speso **2.000 € ciascuno**, contribuendo solo al **4,4% del totale vendite**
+- Picchi di vendita: **Maggio e Ottobre 2023**, minimo **Gennaio 2024**
+- Le categorie di prodotto mostrano diversi pattern tra quantità venduta e ricavo totale
 
-## Files in this Repository
-- `data/` → cleaned dataset (CSV/Excel)
-- `sql/` → SQL queries for analysis
-- `screenshots/` → dashboard and visualization images
-- `README.md` → project documentation
+## Contenuto del repository
+- `data/` → dataset pulito (CSV/Excel)  
+- `sql/` → query SQL utilizzate per l’analisi  
+- `screenshots/` → immagini della dashboard e dei grafici  
+- `README.md` → documentazione del progetto
 
-## Tools Used
-- **Excel** → initial data cleaning  
-- **BigQuery (SQL)** → data transformation and analysis  
-- **Tableau Public** → dashboard creation and visualization  
+## Strumenti utilizzati
+- **Excel** → visualizzazione dataset, identificazione errori 
+- **BigQuery (SQL)** → pulizia, trasformazione e analisi dei dati  
+- **Tableau / Power BI** → creazione della dashboard e visualizzazione dei dati
 
 ## Dashboard
-👉 [View the interactive dashboard on Tableau Public]
-(https://public.tableau.com/app/profile/melissa.congiu/viz/Analisi_ordini/Dashboardportfolio)
-
+Link alla dashboard interattiva: (https://public.tableau.com/app/profile/melissa.congiu/viz/Analisi_ordini/Dashboardportfolio)
 ---
