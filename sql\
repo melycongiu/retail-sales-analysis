@@ -1,0 +1,33 @@
+-- 1. Pulizia Customer ID
+UPDATE `project.retail.SALES`
+SET `Customer ID` = 'Guest'
+WHERE `Customer ID` IS NULL OR `Customer ID` = '';
+
+-- 2. Aggiornamento Price e Quantity
+UPDATE `project.retail.SALES`
+SET `Price per Unit` = 0
+WHERE `Price per Unit` IS NULL;
+
+UPDATE `project.retail.SALES`
+SET Quantity = 0
+WHERE Quantity IS NULL;
+
+-- 3. Calcolo Total Amount
+UPDATE `project.retail.SALES`
+SET `Total Amount` = Quantity * `Price per Unit`
+WHERE TRUE;
+
+-- 4. Creazione colonna MonthYear
+ALTER TABLE `project.retail.SALES`
+ADD COLUMN MonthYear STRING;
+
+UPDATE `project.retail.SALES`
+SET MonthYear = FORMAT_DATE('%Y-%m', DATE(`Date`))
+WHERE TRUE;
+
+-- 5. Analisi: Top 10 clienti
+SELECT `Customer ID`, SUM(`Total Amount`) as TotalSpent
+FROM `project.retail.SALES`
+GROUP BY `Customer ID`
+ORDER BY TotalSpent DESC
+LIMIT 10;
